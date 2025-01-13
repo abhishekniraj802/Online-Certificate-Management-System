@@ -55,18 +55,6 @@ The primary goal of this project is to:
 
 ---
 
-## Deployment
-### Live Demo:
-Explore the project here: [Online Certificate Management System](https://web-xi-orcin.vercel.app/)
-
-#### Admin Credentials:
-- **Username**: `admin`
-- **Password**: `admin`
-
-#### User Credentials:
-- **Username**: `alok`
-- **Password**: `Alok@123`
-
 ---
 
 ## How to Use
@@ -120,14 +108,7 @@ Online-Certificate-Management-System/
    mvn spring-boot:run
    ```
 
-4. Access the application at `http://localhost:3000`.
-
----
-
-## GitHub Repository
-Check out the complete source code here: [GitHub Repository](https://github.com/alokgarg003/web/)
-
----
+4. Access the application at `http://localhost:5173`.
 
 ## Skills Demonstrated
 - React, Material-UI, and Axios.
