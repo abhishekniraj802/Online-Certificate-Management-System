@@ -98,8 +98,8 @@ Online-Certificate-Management-System/
 2. Navigate to the frontend directory and install dependencies:
    ```bash
    cd web
-   npm install
-   npm start
+   npm install or npm i
+   npm run dev
    ```
 
 3. Navigate to the backend directory and run the application:
