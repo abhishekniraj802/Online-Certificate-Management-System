@@ -1,0 +1,66 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+/* web/src/index.css */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f8f9fa; /* Light background for better contrast */
+}
+
+/* Responsive typography */
+h1 {
+  font-size: 2.5rem; /* Base size for larger screens */
+}
+
+h2 {
+  font-size: 2rem; /* Base size for larger screens */
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem; /* Smaller size for mobile */
+  }
+
+  h2 {
+    font-size: 1.5rem; /* Smaller size for mobile */
+  }
+}
+
+/* Responsive container */
+.container {
+  max-width: 1200px; /* Maximum width for larger screens */
+  margin: 0 auto; /* Center the container */
+  padding: 0 20px; /* Horizontal padding */
+}
+
+/* Code styling */
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Responsive utility classes */
+.hidden {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .hidden {
+    display: block; /* Show on larger screens */
+  }
+}
