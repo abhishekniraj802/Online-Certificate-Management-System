@@ -117,9 +117,4 @@ Online-Certificate-Management-System/
 - API development and testing.
 - Clean code principles and exception handling.
 
----
 
-## Open Request
-If you are working on a similar project or need guidance related to React, Spring Boot, or full-stack development, feel free to connect with me! I offer free mentorship during weekends (Saturday & Sunday).
-
----
